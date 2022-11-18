@@ -5,7 +5,7 @@
 // 1 -> нет
 
 Console.Clear();
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите число в диапазоне от 1 до 7: ");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
