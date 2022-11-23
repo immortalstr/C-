@@ -12,4 +12,6 @@ int Count(int num)
     return counter;
 }
 
-Console.WriteLine($"{number} --> {Count(number)}");
+int count = Count(number);
+
+Console.WriteLine($"{number} --> {count}");
