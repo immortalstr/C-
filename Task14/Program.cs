@@ -2,7 +2,7 @@
 // int[] array1 = { 1, 2, 3, 5, 7, 1, 2 };
 // int[] array2 = new int[4] { 1, 2, 3, 4 };
 
-int[] array = new int[8];
+int[] arr = new int[8];
 
 void RandomArray(int[] array)
 {
@@ -21,5 +21,5 @@ void PrintArray(int[] array)
     }
 }
 
-RandomArray(array);
-PrintArray(array);
+RandomArray(arr);
+PrintArray(arr);
