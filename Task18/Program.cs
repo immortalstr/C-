@@ -34,6 +34,9 @@ int SearchNum(int[] array, int number)
 }
 
 RandomArray(array1);
+
+// Array.ForEach(array1, Console.Write); ## Печатает массив 
+
 Console.Write("Элементы массива: ");
 PrintArray(array1);
 Console.WriteLine($"Случайное число в массиве в колличестве = {SearchNum(array1, num)}");
