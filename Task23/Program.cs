@@ -34,11 +34,11 @@ int[] NewArray(int[] arr)
     {
         newArray[i] = arr[i] * arr[arr.Length -1 - i];
     }
-    
+    if (arr.Length % 2 == 1) newArray[newArraySize-1] = arr[arr.Length / 2];
     return newArray;
 }
 
-int[] array = CreateArrayRndInt(4, 0, 10);
+int[] array = CreateArrayRndInt(5, 0, 10);
 
 PrintArray(array);
 int[] newArr = NewArray(array);
