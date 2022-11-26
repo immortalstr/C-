@@ -31,13 +31,12 @@ void InversionArray(int[] arr)
     for (int i = 0; i < arr.Length; i++)
     {
         arr[i] = arr[i] * -1;
-        if (i < arr.Length - 1) Console.Write($"{arr[i]}, ");
-        else Console.Write($"{arr[i]}");
-
     }
-    Console.WriteLine("]");
 }
+
+
 
 int[] array = CreateArrayRndInt(12, -9, 9);
 PrintArray(array);
 InversionArray(array);
+PrintArray(array);
