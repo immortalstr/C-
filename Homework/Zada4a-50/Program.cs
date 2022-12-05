@@ -6,9 +6,6 @@
 // 8 4 2 4
 // 1, 7 -> такого элемента в массиве нет
 
-Console.Clear();
-
-
 string[] Separation(string num)
 {
     char[] separator = { ',', ' ' }; //можно сделать через string[] separator = {", "}
@@ -52,17 +49,6 @@ void PrintMatrix(int[,] matr, string str1, string str2)
         }
         Console.WriteLine($"{str2}");
     }
-}
-
-void PrintArray(int[] array)
-{
-    Console.Write($"");
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (i < array.Length - 1) Console.Write($"{array[i]}, ");
-        else Console.Write($"{array[i]}");
-    }
-    Console.WriteLine($"");
 }
 
 void PrintResult(int[,] matr, int[] array)
